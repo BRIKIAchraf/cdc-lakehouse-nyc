@@ -73,3 +73,12 @@ docs/                Architecture and operating decisions
 ## Author
 
 **Achraf BRIKI** · [LinkedIn](https://www.linkedin.com/in/achrafbriki/) · [Portfolio](https://achrafbriki.com)
+
+## Delivery profile
+
+**Status:** Blueprint  
+**Demo:** Architecture walkthrough and planned local CDC stack; no public hosted demo yet.  
+**Prerequisites:** Docker, PostgreSQL, Kafka, Debezium, Spark and S3-compatible storage.  
+**Validation:** Replay, CDC ordering, duplicate handling, schema evolution, Hudi upserts and dbt tests.  
+**Performance plan:** Measure rows/second, CDC lag, batch latency, Hudi throughput, dbt runtime and storage growth.  
+**Roadmap:** Runnable infrastructure, sample fixtures, Spark/Hudi jobs, dbt checks, CI and benchmarks.
