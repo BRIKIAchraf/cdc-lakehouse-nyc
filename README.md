@@ -1,3 +1,8 @@
+
+
+## About
+
+Data engineering portfolio project designing a replayable CDC lakehouse for NYC taxi analytics, from PostgreSQL and Debezium through Kafka, Spark, Hudi, Snowflake and dbt.
 # CDC Lakehouse NYC
 
 Portfolio architecture for a change-data-capture and analytics platform built around New York City taxi data.
